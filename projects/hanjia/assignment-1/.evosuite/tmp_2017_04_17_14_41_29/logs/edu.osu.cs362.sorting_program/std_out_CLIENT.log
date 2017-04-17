@@ -1,0 +1,97 @@
+* Starting client
+* Connecting to master process on port 20479
+* Analyzing classpath: 
+  - C:/Users/Jiayu/Documents/OSU/Spring 2017/CS 362/CS362-001-SP17/projects/hanjia/assignment-1/target/classes
+  - C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar
+  - C:\Program Files\Java\jdk1.8.0_121\jre\lib\deploy.jar
+  - C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\access-bridge-64.jar
+  - C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\cldrdata.jar
+  - C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\dnsns.jar
+  - C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\jaccess.jar
+  - C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\jfxrt.jar
+  - C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\localedata.jar
+  - C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\nashorn.jar
+  - C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunec.jar
+  - C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunjce_provider.jar
+  - C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunmscapi.jar
+  - C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunpkcs11.jar
+  - C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\zipfs.jar
+  - C:\Program Files\Java\jdk1.8.0_121\jre\lib\javaws.jar
+  - C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar
+  - C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar
+  - C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfxswt.jar
+  - C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar
+  - C:\Program Files\Java\jdk1.8.0_121\jre\lib\management-agent.jar
+  - C:\Program Files\Java\jdk1.8.0_121\jre\lib\plugin.jar
+  - C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar
+  - C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar
+  - C:\Users\Jiayu\Documents\OSU\Spring 2017\CS 362\CS362-001-SP17\projects\hanjia\assignment-1\target\test-classes
+  - C:\Users\Jiayu\Documents\OSU\Spring 2017\CS 362\CS362-001-SP17\projects\hanjia\assignment-1\target\classes
+  - C:\Users\Jiayu\.m2\repository\junit\junit\4.12\junit-4.12.jar
+  - C:\Users\Jiayu\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+* Finished analyzing classpath
+* Generating tests for class edu.osu.cs362.sorting_program
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 14:41:42.351 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: C:\Users\Jiayu\Documents\OSU\Spring 2017\CS 362\CS362-001-SP17\projects\hanjia\assignment-1\.evosuite\evosuite-seeds\edu.osu.cs362.sorting_program.seed
+* Total number of test goals: 
+  - Line 35
+  - Branch 13
+  - Exception 0
+  - MutationFactory 215
+  - Output 0
+  - Method 2
+  - MethodNoException 2
+  - CBranchFitnessFactory 13
+* Using seed 1492465294173
+* Starting evolution
+* Search finished after 151s and 3027 generations, 319484 statements, best individual has fitness: 230.68055555555557
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 34%
+* Total number of goals: 35
+* Number of covered goals: 12
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 15%
+* Total number of goals: 13
+* Number of covered goals: 2
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 20%
+* Total number of goals: 215
+* Number of covered goals: 42
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 100% (no goals)
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 50%
+* Total number of goals: 2
+* Number of covered goals: 1
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 15%
+* Total number of goals: 13
+* Number of covered goals: 2
+* Generated 3 tests with total length 8
+* Resulting test suite's coverage: 48% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Compiling and checking tests
+* Writing JUnit test case 'sorting_program_ESTest' to C:\Users\Jiayu\Documents\OSU\Spring 2017\CS 362\CS362-001-SP17\projects\hanjia\assignment-1\.evosuite\tmp_2017_04_17_14_41_29\tests
+* Done!
+
