@@ -32,7 +32,7 @@ public class sorting_program {
 
 	}
 
-	public static double get_avg(int[] sortit, int size, double avg){
+	private static double get_avg(int[] sortit, int size, double avg){
 		int i = 0;
 		double sum = 0;
 		while(i < size){
@@ -43,7 +43,7 @@ public class sorting_program {
 		return avg;
 	}
 
-	public static void sort_array(int[] sortit){
+	private static void sort_array(int[] sortit){
 		int n = sortit.length;
 		int temp = 0;
 		for(int i = 0; i < n; i++){
