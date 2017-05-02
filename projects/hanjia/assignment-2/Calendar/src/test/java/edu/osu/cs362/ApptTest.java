@@ -40,7 +40,7 @@ public class ApptTest {
 	 }
 
 	 @Test
-	public void setStartHourTest(){
+	public void setStartHourTest()  throws Throwable  {
 		 int startHour = 25;
 		 int startMinute=30;
 		 int startDay=10;
@@ -68,7 +68,7 @@ public class ApptTest {
 	 }
 
 	@Test
-	public void setStartHourTest1(){
+	public void setStartHourTest1()  throws Throwable  {
 		int startHour=13;
 		int startMinute=60;
 		int startDay=10;
@@ -96,7 +96,7 @@ public class ApptTest {
 	}
 
 	@Test
-	public void toStringtest(){
+	public void toStringtest()  throws Throwable  {
 		int startHour=13;
 		int startMinute=30;
 		int startDay=10;
@@ -118,7 +118,7 @@ public class ApptTest {
 	}
 
 	@Test
-	public void toStringtest1(){
+	public void toStringtest1()  throws Throwable  {
 		int startHour=25;
 		int startMinute=30;
 		int startDay=10;
@@ -141,7 +141,7 @@ public class ApptTest {
 
 
 	@Test
-	public void toStringtest2(){
+	public void toStringtest2()  throws Throwable  {
 		int startHour=12;
 		int startMinute=30;
 		int startDay=10;
@@ -159,7 +159,7 @@ public class ApptTest {
 				description);
 		appt.toString();
 
-		assertNotEquals(null,appt.toString());
+		assertNotNull(appt.toString());
 	}
 
 }

@@ -61,11 +61,11 @@ public class Appt {
             int startDay, int startMonth, int startYear,String title, String description)
     {
         //Sets all instance variables 
-    	this.startHour = startHour;
-    	this.startMinute = startMinute; 
-    	this.startDay = startDay; 
-    	this.startMonth = startMonth;
-    	this.startYear = startYear; 
+    	setStartHour(startHour);
+    	setStartMinute(startMinute);
+    	setStartDay(startDay);
+    	setStartMonth(startMonth);
+    	setStartYear(startYear);
         setTitle(title);
         setDescription(description);
         isValid();
