@@ -2,8 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="594f2e00-ffb7-4f87-925b-0a73653d1edb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.evosuite/best-tests/edu/osu/cs362/sorting_programTest_ESTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.evosuite/tmp_2017_04_17_14_41_29/logs/edu.osu.cs362.sorting_program/std_err_CLIENT.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.evosuite/tmp_2017_04_17_14_41_29/logs/edu.osu.cs362.sorting_program/std_err_MASTER.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.evosuite/tmp_2017_04_17_14_41_29/logs/edu.osu.cs362.sorting_program/std_out_CLIENT.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.evosuite/tmp_2017_04_17_14_41_29/logs/edu.osu.cs362.sorting_program/std_out_MASTER.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.evosuite/tmp_2017_04_17_14_41_29/logs/edu.osu.cs362.sorting_programTest/std_err_CLIENT.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.evosuite/tmp_2017_04_17_14_41_29/logs/edu.osu.cs362.sorting_programTest/std_err_MASTER.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.evosuite/tmp_2017_04_17_14_41_29/logs/edu.osu.cs362.sorting_programTest/std_out_CLIENT.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.evosuite/tmp_2017_04_17_14_41_29/logs/edu.osu.cs362.sorting_programTest/std_out_MASTER.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.evosuite/tmp_2017_04_17_14_41_29/pools/edu.osu.cs362.sorting_program.pool" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.evosuite/tmp_2017_04_17_14_41_29/pools/edu.osu.cs362.sorting_programTest.pool" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.evosuite/tmp_2017_04_17_14_41_29/reports/edu.osu.cs362.sorting_program/statistics.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.evosuite/tmp_2017_04_17_14_41_29/reports/edu.osu.cs362.sorting_programTest/statistics.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.evosuite/tmp_2017_04_17_14_41_29/seeds/edu.osu.cs362.sorting_program.seed" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.evosuite/tmp_2017_04_17_14_41_29/seeds/edu.osu.cs362.sorting_programTest.seed" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.evosuite/tmp_2017_04_17_14_41_29/tests/edu/osu/cs362/sorting_programTest_ESTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.evosuite/tmp_2017_04_17_14_41_29/tests/edu/osu/cs362/sorting_programTest_ESTest_scaffolding.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.evosuite/tmp_2017_04_17_14_41_29/tests/edu/osu/cs362/sorting_program_ESTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.evosuite/tmp_2017_04_17_14_41_29/tests/edu/osu/cs362/sorting_program_ESTest_scaffolding.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.evosuite/evosuite-seeds/edu.osu.cs362.sorting_program.seed" afterPath="$PROJECT_DIR$/.evosuite/evosuite-seeds/edu.osu.cs362.sorting_program.seed" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/osu/cs362/sorting_program.class" afterPath="$PROJECT_DIR$/target/classes/edu/osu/cs362/sorting_program.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.evosuite/best-tests/edu/osu/cs362/sorting_program_ESTest.java" afterPath="$PROJECT_DIR$/.evosuite/best-tests/edu/osu/cs362/sorting_program_ESTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.evosuite/best-tests/edu/osu/cs362/sorting_program_ESTest_scaffolding.java" afterPath="$PROJECT_DIR$/.evosuite/best-tests/edu/osu/cs362/sorting_program_ESTest_scaffolding.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.evosuite/project_info.xml" afterPath="$PROJECT_DIR$/.evosuite/project_info.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/evo/edu/osu/cs362/sorting_program_ESTest.java" afterPath="$PROJECT_DIR$/src/evo/edu/osu/cs362/sorting_program_ESTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/evo/edu/osu/cs362/sorting_program_ESTest_scaffolding.java" afterPath="$PROJECT_DIR$/src/evo/edu/osu/cs362/sorting_program_ESTest_scaffolding.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/osu/cs362/sorting_program.java" afterPath="$PROJECT_DIR$/src/main/java/edu/osu/cs362/sorting_program.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sorting_program.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="sorting_program.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/osu/cs362/sorting_program.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+            <state relative-caret-position="770">
+              <caret line="42" column="34" lean-forward="true" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -79,28 +106,6 @@
               <folding>
                 <element signature="e#0#384#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sorting_program_ESTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.evosuite/best-tests/edu/osu/cs362/sorting_program_ESTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="30" column="6" lean-forward="true" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#1944#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="project_info.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.evosuite/project_info.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -162,6 +167,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="assignment-1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cs362W17" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assignment-1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -292,7 +311,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="cores_evosuite_param" value="1" />
-    <property name="time_evosuite_param" value="3" />
+    <property name="time_evosuite_param" value="1" />
     <property name="memory_evosuite_param" value="2000" />
     <property name="target_folder_evosuite_param" value="src/evo" />
     <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_121" />
@@ -564,7 +583,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284055" sideWeight="0.49582464" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3284055" sideWeight="0.49582464" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -687,18 +706,46 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/osu/cs362/Stack.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/osu/cs362/sorting_program.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/osu/cs362/sorting_programTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.evosuite/best-tests/edu/osu/cs362/sorting_program_ESTest_scaffolding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-453">
+          <caret line="25" column="66" lean-forward="false" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.evosuite/best-tests/edu/osu/cs362/sorting_programTest_ESTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.evosuite/best-tests/edu/osu/cs362/sorting_program_ESTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="30" column="6" lean-forward="true" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#1781#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.evosuite/project_info.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -713,26 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.evosuite/best-tests/edu/osu/cs362/sorting_program_ESTest_scaffolding.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-453">
-          <caret line="25" column="66" lean-forward="false" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.evosuite/best-tests/edu/osu/cs362/sorting_programTest_ESTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#739#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/test-classes/edu/osu/cs362/sorting_programTest.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -743,20 +770,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.evosuite/best-tests/edu/osu/cs362/sorting_program_ESTest.java">
+    <entry file="file://$PROJECT_DIR$/.evosuite/tmp_2017_04_17_20_55_19/tests/edu/osu/cs362/sorting_program_ESTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="30" column="6" lean-forward="true" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+        <state relative-caret-position="-251">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#1944#0" expanded="true" />
+            <element signature="e#0#1781#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.evosuite/project_info.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/osu/cs362/sorting_program.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        <state relative-caret-position="770">
+          <caret line="42" column="34" lean-forward="true" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
           <folding />
         </state>
       </provider>

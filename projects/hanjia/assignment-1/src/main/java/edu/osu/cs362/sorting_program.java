@@ -15,6 +15,10 @@ public class sorting_program {
 
 		while (i < 10) {
 			System.out.println( (i+1) + ". Enter an integer");
+			do {
+				System.out.println("Please enter an integer");
+				while(!read.hasNextInt())read.next();
+			}while(!read.hasNextInt());
 			n1 = read.nextInt();
 			sortit[i] = n1;
 			i++;
@@ -45,7 +49,7 @@ public class sorting_program {
 
 	private static void sort_array(int[] sortit){
 		int n = sortit.length;
-		int temp = 0;
+		int temp;
 		for(int i = 0; i < n; i++){
 			for(int j = 1; j <(n-i); j++){
 				if(sortit[j-1] > sortit[j]){
