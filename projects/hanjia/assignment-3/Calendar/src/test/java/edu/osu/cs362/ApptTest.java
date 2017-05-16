@@ -36,7 +36,7 @@ public class ApptTest {
 		 assertEquals(04, appt.getStartMonth());
 		 assertEquals(2017, appt.getStartYear());
 		 assertEquals("Birthday Party", appt.getTitle());
-		 assertEquals("This is my birthday party.", appt.getDescription());         		
+		 assertEquals("This is my birthday party.", appt.getDescription());
 	 }
 
 	 @Test
