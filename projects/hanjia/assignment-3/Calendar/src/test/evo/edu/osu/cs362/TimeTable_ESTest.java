@@ -43,25 +43,6 @@ public class TimeTable_ESTest extends TimeTable_ESTest_scaffolding {
   }
 
   @Test(timeout = 4000)
-  public void test01()  throws Throwable  {
-      TimeTable timeTable0 = new TimeTable();
-      LinkedList<Appt> linkedList0 = new LinkedList<Appt>();
-      MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar((-19), (-19), (-19));
-      MockGregorianCalendar mockGregorianCalendar1 = new MockGregorianCalendar();
-      // Undeclared exception!
-      try { 
-        timeTable0.getApptRange(linkedList0, mockGregorianCalendar0, mockGregorianCalendar1);
-        fail("Expecting exception: TooManyResourcesException");
-      
-      } catch(TooManyResourcesException e) {
-         //
-         // Loop has been executed more times than the allowed 10000
-         //
-         assertThrownBy("org.evosuite.runtime.LoopCounter", e);
-      }
-  }
-
-  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       TimeTable timeTable0 = new TimeTable();
       LinkedList<Appt> linkedList0 = new LinkedList<Appt>();

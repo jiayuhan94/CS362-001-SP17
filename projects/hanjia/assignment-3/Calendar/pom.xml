@@ -51,6 +51,12 @@
           <artifactId>junit-jupiter-api</artifactId>
           <version>RELEASE</version>
       </dependency>
+      <dependency>
+          <groupId>com.google.collections</groupId>
+          <artifactId>google-collections</artifactId>
+          <version>1.0</version>
+          <scope>test</scope>
+      </dependency>
 
 
   </dependencies>
@@ -64,15 +70,22 @@
           	 <configuration>
         	 <!-- INSERT HERE -->
         	    <targetClasses> <!-- limit which classes are mutated -->
-                 <!--   <param>edu.osu.cs362.Appt</param>
+                    <param>edu.osu.cs362.Appt</param>
                     <param>edu.osu.cs362.CalDay</param>
-                    <param>edu.osu.cs362.TimeTable</param> -->
+                    <param>edu.osu.cs362.TimeTable</param>
                 </targetClasses>
                 <targetTests>
         			<!--A list of your tests available to be run.-->
-                <!--    <param>edu.osu.cs362.ApptTest</param>
+                    <param>edu.osu.cs362.ApptTest</param>
+                    <param>edu.osu.cs362.TimeTableTest</param>
                     <param>edu.osu.cs362.CalDayTest</param>
-                    <param>edu.osu.cs362.TimeTableTest</param>-->
+
+                    <!--<param>edu.osu.cs362.Appt_ESTest</param>
+                    <param>edu.osu.cs362.Appt_ESTest_scaffolding</param>
+                    <param>edu.osu.cs362.CalDay_ESTest</param>
+                    <param>edu.osu.cs362.CalDay_ESTest_scaffolding</param>
+                    <param>edu.osu.cs362.TimeTable_ESTest</param>
+                    <param>edu.osu.cs362.TimeTable_ESTest_scaffolding</param>-->
                 </targetTests>
                 <avoidCallsTo><!--A List of packages, classes and methods which are to be considered outside the scope of mutation.-->
                      <avoidCallsTo>java.io.PrintStream</avoidCallsTo>
