@@ -46,14 +46,14 @@ public class ApptRandomTest {
 				long randomseed =10;//System.currentTimeMillis();
 	//			System.out.println(" Seed:"+randomseed );
 				Random random = new Random(randomseed);
-				
-				 int startHour=13;
-				 int startMinute=30;
-				 int startDay=10;
-				 int startMonth=4;
-				 int startYear=2017;
-				 String title="Birthday Party";
-				 String description="This is my birthday party.";
+
+				int startHour=10;
+				int startMinute=55;
+				int startDay=30;
+				int startMonth=5;
+				int startYear=2017;
+				String title="random";
+				String description="test";
 				 //Construct a new Appointment object with the initial data	 
 				 Appt appt = new Appt(startHour,
 				          startMinute ,
@@ -64,11 +64,47 @@ public class ApptRandomTest {
 				         description);
 				for (int i = 0; i < NUM_TESTS; i++) {
 					String methodName = ApptRandomTest.RandomSelectMethod(random);
-					   if (methodName.equals("setTitle")){
-						   String newTitle=(String) ValuesGenerator.getString(random);
-						   appt.setTitle(newTitle);						   
-						}
-					
+					if(methodName.equals("setStartHour")){
+						Integer newVal = ValuesGenerator.getRandomIntBetween(random, -24, 24);
+						appt.setStartHour(newVal);
+					}
+
+					if(methodName.equals("setStartMinute")){
+						Integer newVal = ValuesGenerator.getRandomIntBetween(random, -60, 60);
+						appt.setStartMinute(newVal);
+
+						newVal = ValuesGenerator.getRandomIntBetween(random, -120, 120);
+						appt.setStartMinute(newVal);
+					}
+
+					if(methodName.equals("setStartDay")){
+						Integer newVal = ValuesGenerator.getRandomIntBetween(random, -31, 31);
+						appt.setStartDay(newVal);
+					}
+
+					if(methodName.equals("setStartMonth")){
+						Integer newVal = ValuesGenerator.getRandomIntBetween(random, -12, 12);
+						appt.setStartMonth(newVal);
+					}
+
+					if(methodName.equals("setStartYear")){
+						Integer newVal = ValuesGenerator.getRandomIntBetween(random, -100, 100);
+						appt.setStartYear(newVal);
+					}
+
+					if (methodName.equals("setTitle")){
+						String newTitle= ValuesGenerator.getString(random);
+						appt.setTitle(newTitle);
+					}
+
+					if (methodName.equals("setDescription")){
+						String newDesc = ValuesGenerator.getString(random);
+						appt.setDescription(newDesc);
+
+						String newVal = ValuesGenerator.getString(random);
+						appt.setDescription(newVal);
+					}
+
 				}
 				
 				 elapsed = (Calendar.getInstance().getTimeInMillis() - startTime);

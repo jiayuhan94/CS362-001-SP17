@@ -76,9 +76,9 @@
                     </targetClasses>
                     <targetTests>
                         <!--A list of your tests available to be run.-->
-                        <param>edu.osu.cs362.ApptTest</param>
-                        <param>edu.osu.cs362.TimeTableTest</param>
-                        <param>edu.osu.cs362.CalDayTest</param>
+                        <param>edu.osu.cs362.ApptRandomTest</param>
+                        <param>edu.osu.cs362.TimeTableRandomTest</param>
+                        <param>edu.osu.cs362.CalDayRandomTest</param>
 
                         <!--<param>edu.osu.cs362.Appt_ESTest</param>
                         <param>edu.osu.cs362.Appt_ESTest_scaffolding</param>
