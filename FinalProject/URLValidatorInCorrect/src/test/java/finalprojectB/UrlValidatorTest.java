@@ -199,14 +199,15 @@ public class UrlValidatorTest extends TestCase {
                new ResultPair("/test1//file", false)
        };
        //Test allow2slash, noFragment
-       ResultPair[] testUrlPathOptions = {new ResultPair("/test1", true),
+       ResultPair[] testUrlPathOptions = {
+               new ResultPair("/test1", true),
                new ResultPair("/t123", true),
                new ResultPair("/$23", true),
                new ResultPair("/..", false),
                new ResultPair("/../", false),
                new ResultPair("/test1/", true),
                new ResultPair("/#", false),
-               new ResultPair("", true),
+               //new ResultPair("", true),
                new ResultPair("/test1/file", true),
                new ResultPair("/t123/file", true),
                new ResultPair("/$23/file", true),
@@ -320,14 +321,15 @@ public class UrlValidatorTest extends TestCase {
                }
            }
 
-           System.out.println(test);
-           System.out.println(goodURL);
-           System.out.println(badURL);
+
+           System.out.println(i + ". " + test);
+           System.out.println("goodURL: "+ goodURL);
+           System.out.println("badURL: "+ badURL);
 
            if(pathoption == 0){
-               System.out.println("2 slashes and No-Fragment Enabled");
                assertEquals(urlValid, urlVal.isValid(test));
            }else{
+               System.out.println("2 slashes and No-Fragment Enabled");
                assertEquals(urlValid, urlVal2.isValid(test));
            }
 
